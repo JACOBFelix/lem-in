@@ -1,0 +1,83 @@
+.\" Manpage for C_sources.
+.\" Contact felix.jacob@epitech.eu .in to correct errors or typos.
+.TH man 1 " 2014" "1.0" "lem_in man page"
+
+              '=.
+             '=. \\
+                \\ \\
+             _,-=\\/=._         _.-\,_
+            /         \\       /=-._ '-.
+           |=-./~\\___/~\\     /     `-._\\
+           |   \\0/   \\0/    /          /
+            \\_   ;~~~;/    /  LEM_IN  /
+              `~,._,-'    /          /
+                 | |      =-._      /
+             _,-=/ \\=-._     /|`-._/
+           //           \\   )\\
+          /|             |)_.\'/
+         //|             |\\_.'   _.-\\
+        (|  \\           /    _.\\`=    \\
+        ||   ':_    _.;'_.-;'   _.-=.:
+     _-.'/    / \`-.'\_.'        =-_.;\\
+    \`-_./   /             _.-=.    / \\\\
+           |              =-_.;\\ .'   \\\\
+           \\                   \\\\/     \\\\
+           /\\_                .\\'\\\\     \\\\
+          //  `=_         _.-'   \\\\      \\\\
+         //      `~-.=\`'\`'       ||      ||
+         ||    _.-_/|            ||      |\\_.-_
+     _.-_/|   /_.-._/            |\\_.-_  \\_.-._\\
+    /_.-._/                      \\_.-._\\
+
+.SH NAME
+lem_in
+
+.SH SYNOPSIS
+
+.P
+\fB./lem_in\fR < <\fIfile\fR>
+.P
+.SH DESCRIPTION
+
+	\fITHE_PROGRAM\fR:
+
+		this program reads in the standard input the description of an anthill. the file is written in this way:
+.br
+			-the number of ants;
+.br
+			-the rooms;
+.br
+			-the pipes;
+.br
+		the purpose of this program is to get all the ant anthill's entrance At the exit with minimum turn.
+.br
+
+	\fIDATA_OF_FILE\fR:
+
+		- data of the rooms are the \fIname_of_the_room\fR and after the coordinates \fIX\fR and \fIY\fR
+.br
+		- data of the pipes are the links between the rooms.
+.br
+		- if the line start by '#' only, it's just a comment. But if the line start by '##', you change the characteristic of the next line. '##' is the symbol for a order.
+.br
+		- there are two obligatory command for the rooms:
+.br
+			\fI##start\fR: it indicates the first room.
+.br
+			\fI##end\fR: it indicates the last room.
+.br
+
+	\fIWARNING\fR:
+.br
+
+		- in the file there are only one \fI##start\fR and one \fI##end\fR
+.br
+		- the order of the data of the file s only as it's presented before. 
+.SH SEE ALSO
+No related manpage.
+.SH REPORTING BUGS
+No known bugs.
+.br
+Report ./lem_in bugs to felix.jacob@epitech.eu
+.SH AUTHOR
+jacob_f
